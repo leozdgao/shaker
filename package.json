@@ -1,0 +1,25 @@
+{
+  "name": "shakeshake",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "leozdgao",
+    "email": "gzdleo0816@outlook.com",
+    "url": ""
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.8",
+    "babel-core": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-cli": "^6.5.1"
+  },
+  "scripts": {
+    "prepublish": "babel ./src/ -d ./lib"
+  },
+  "license": "MIT"
+}
